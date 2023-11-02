@@ -1,0 +1,105 @@
+First git exe file install
+
+second go to desktop right click open the bitbash here
+
+go to the git bash
+
+type ls
+
+ssh-keygen -t rsa
+
+yes
+
+User name create 
+
+git config --global user.name "ramakrishna"
+
+Git config –global user.email ramakrishna.k@thresholdsoft.com
+Enter
+
+~cd -/.ssh
+ls-ltr
+cat id_rsa.publs
+
+ls -t
+$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCYzuhR/eaU70aJEuH4FU7AR+a1yzVk/oVl+2A9bRwJ7mXIRr1ctk/gQAuAidhbROErECEAq6UWjBS2a7tSyVFLayIaf16CU9/5ubOnBLy8lheBbudxv70dSZaSTBJ1xUzrsle2FiZpgIATWcLfFln/y1wZ+2hwnDqgKM2yrO5Y9rsfKjoLJesy5cOJmCyFC6m1t18IGZQxprCW7lH6wYXZLwynlOqsoUzOV9VembXW3fUZJj5mWP78OdhseTDwvX4Q5D0788ZM871DPlmlbOBlqWy0rlG3eLjcP9+yRjU1OdeBWLjY7gy704LMiXyIj7XP1ZWr9zZczPD266t8e2FQpY2Q+gyEYeZSWXQLgOYhYL6bHGUVxh06GH6ZLU4xjMzlDefR68gNKphGakhg+PS0gMBQPfKvRrIEFhWnitRPpw4NRxBpZmMfnbYKfZ9JZAH1KYPUq+TdDqhVf3SBexLqPoMq8/10CICfyAFfANVuedCc4RWaI9HDKkVfAFBPOk8= pc@DESKTOP-HC8RI8P
+
+go to github site login
+
+click the user account settings
+
+next open SSH And Keys
+
+click the New SSH key
+
+Add new SSH Key
+
+Title user name enter
+
+after the Key paste (in cmd gitbash keygen-cat id_rsa.pub
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCYzuhR/eaU70aJEuH4FU7AR+a1yzVk/oVl+2A9bRwJ7mXIRr1ctk/gQAuAidhbROErECEAq6UWjBS2a7tSyVFLayIaf16CU9/5ubOnBLy8lheBbudxv70dSZaSTBJ1xUzrsle2FiZpgIATWcLfFln/y1wZ+2hwnDqgKM2yrO5Y9rsfKjoLJesy5cOJmCyFC6m1t18IGZQxprCW7lH6wYXZLwynlOqsoUzOV9VembXW3fUZJj5mWP78OdhseTDwvX4Q5D0788ZM871DPlmlbOBlqWy0rlG3eLjcP9+yRjU1OdeBWLjY7gy704LMiXyIj7XP1ZWr9zZczPD266t8e2FQpY2Q+gyEYeZSWXQLgOYhYL6bHGUVxh06GH6ZLU4xjMzlDefR68gNKphGakhg+PS0gMBQPfKvRrIEFhWnitRPpw4NRxBpZmMfnbYKfZ9JZAH1KYPUq+TdDqhVf3SBexLqPoMq8/10CICfyAFfANVuedCc4RWaI9HDKkVfAFBPOk8= pc@DESKTOP-HC8RI8P
+
+after click Add SSH Key
+
+it is completed
+
+
+Git Clone the data
+
+Go to the D- drive crate the new folder 
+
+open the gitbash run command
+
+cd D:\Sample
+
+copy to clone ssh path https://github.com/kilaruramakrishna/hello_test.git
+
+it is completed
+
+
+install the andriod studio
+
+open the settings 
+
+version control 
+
+github + open
+
+add git hub account
+
+server : github
+token : 
+
+
+go to the github account
+
+settings - developer settings
+
+go to the personal access tokens
+
+select the token classic
+
+new personal access token 
+
+note user name enter
+
+select the all scopes
+
+generate token 
+
+copy the tokens 
+
+go to andriod - version control - github- add git hub account
+
+server- token -add account
+
+completed 
+
+
+cd ~/.ssh/id_rsa.pub
+cd 
+
+ 
+
